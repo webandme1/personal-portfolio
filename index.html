@@ -54,7 +54,46 @@
 							</div>
 						</div>
 					</section>
+					<style>
+						.flex-container {
+							display: flex;
+							background-color: yellow;
+							padding: 70px;
+							justify-content: space-between;
+						
+				
+						/*.flex-item {
+							background-color: blue;
+							flex:4; /* makes each box equally sized and take up available space */
+							margin: 10px;
+							height: 60px; /* you can adjust this as needed */
+				}
+				.flex-item {
+            background-color: blue;
+            flex: 4; /* makes each box equally sized and take up available space */
+            margin: 10px;
+            height: 40px; /* you can adjust this as needed */
+            display: flex;
+            align-items: center; /* vertically centers the project name */
+            justify-content: center; /* horizontally centers the project name */
+            color: white; /* text color */
+        }
 
+        /* Example media query: hides project names below 600px */
+        @media (max-width: 600px) {
+            .flex-item span {
+                display: none;
+					</style>
+					<body>
+						<div class="flex-container">
+							<div class="flex-item"><span>Project 1</span></div>
+							<div class="flex-item"><span>Project 2</span></div>
+							<div class="flex-item"><span>Project 3</span></div>
+							<div class="flex-item"><span>Project 4</span></div>
+						</div>
+					
+						
+						</body>
 				<!-- Main -->
 					<div id="main">
 
